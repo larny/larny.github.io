@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hexo-设置阅读全文]]></title>
+    <url>%2F2017%2F05%2F06%2Ftitle-%20Hexo-%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%2F</url>
+    <content type="text"><![CDATA[###1.在文章中使用 手动进行截断 2.自动形成摘要，在主题配置文件中设置 enable 设置为 true默认截取的长度为 150 字符，可以根据需要自行设定 123auto_excerpt: enable: true length: 150 ~~]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo入门]]></title>
+    <url>%2F2017%2F05%2F06%2Ftitle-%20Hexo%E5%85%A5%E9%97%A8%2F</url>
+    <content type="text"><![CDATA[欢迎来到 Hexo! 这将是学习的第一弹。 查阅 文档 获取更多信息. 如果遇到什么问题, 可以登录 常见问题 来查看解答。 快速入门 创建新请求1$ hexo new "My New Post" 更多: 写法 运行服务器1$ hexo server 更多: 服务器 生成静态文件1$ hexo generate 更多文件: 生成 部署到远程站点1$ hexo deploy 更多: 发布 new APlayer({ element: document.getElementById("aplayer0"), narrow: false, autoplay: true, showlrc: 0, music: { title: "够钟", author: "周柏豪", url: "http://mp3.flash127.com/music/6991.qcc?.mp3", pic: "http://imgsrc.baidu.com/forum/w%3D580/sign=70981f415bee3d6d22c687c373176d41/554dbf99a9014c084fa32443087b02087af4f421.jpg", } });]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[如何去掉Hexo博客底部页脚]]></title>
+    <url>%2F2017%2F05%2F06%2Ftitle-%20%E5%A6%82%E4%BD%95%E5%8E%BB%E6%8E%89Hexo%E5%8D%9A%E5%AE%A2%E5%BA%95%E9%83%A8%E9%A1%B5%E8%84%9A%2F</url>
+    <content type="text"><![CDATA[Quick Start找到 Themes - next - languaegs - zh-Hans.yml 并删除 123page:totally: 共有tags: 标签 找到 Themes - next - layout - _partials - footer.swig 并删除1&lt;div class = "powered-by"&gt; &lt;/div&gt;]]></content>
+  </entry>
+</search>
