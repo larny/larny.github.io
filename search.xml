@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[�ַ�����]]></title>
+    <url>%2F2017%2F05%2F09%2F%E5%AD%97%E7%AC%A6%E5%8A%A8%E7%94%BB%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718window.onload = function() &#123;//�������� var num = 441 x = 0 setInterval(function()&#123; if (x &lt; num) &#123; x++; // console.log(x); ����һ�� //�л�ͼƬ���ĵ����� url = 1 + "(" + x + ")" + "." + "jpg"; //url = 1 + "(" + x + ")" + "." + "txt/html"; //��iframe�������� $("#show").attr("src", url); &#125; else &#123; return false; &#125; &#125;,33.33) ��HTML��1&lt;iframe name="myframe" id="show" frameborder="0"&gt;&lt;/iframe&gt;]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo-设置阅读全文]]></title>
     <url>%2F2017%2F05%2F06%2Ftitle-%20Hexo-%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%2F</url>
     <content type="text"><![CDATA[###1.在文章中使用 手动进行截断 2.自动形成摘要，在主题配置文件中设置 enable 设置为 true默认截取的长度为 150 字符，可以根据需要自行设定 123auto_excerpt: enable: true length: 150 ~~]]></content>
