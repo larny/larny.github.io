@@ -8,7 +8,7 @@
   <entry>
     <title><![CDATA[Hexo-设置阅读全文]]></title>
     <url>%2F2017%2F05%2F06%2Ftitle-%20Hexo-%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%2F</url>
-    <content type="text"><![CDATA[###1.在文章中使用 手动进行截断 2.自动形成摘要，在主题配置文件中设置 enable 设置为 true默认截取的长度为 150 字符，可以根据需要自行设定 123auto_excerpt: enable: true length: 150 ~~]]></content>
+    <content type="text"><![CDATA[1.在文章中使用 手动进行截断 2.自动形成摘要，在主题配置文件中设置 enable 设置为 true默认截取的长度为 150 字符，可以根据需要自行设定 123auto_excerpt: enable: true length: 150 ~~]]></content>
   </entry>
   <entry>
     <title><![CDATA[Hexo入门]]></title>
