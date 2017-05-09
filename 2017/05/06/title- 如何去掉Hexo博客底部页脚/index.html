@@ -93,7 +93,7 @@
 <meta property="og:url" content="http://larny.cn/2017/05/06/title- 如何去掉Hexo博客底部页脚/index.html">
 <meta property="og:site_name" content="Larny">
 <meta property="og:description" content="Quick Start找到 Themes - next - languaegs - zh-Hans.yml 并删除">
-<meta property="og:updated_time" content="2017-05-06T12:00:42.580Z">
+<meta property="og:updated_time" content="2017-05-09T14:34:39.349Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何去掉Hexo博客底部页脚">
 <meta name="twitter:description" content="Quick Start找到 Themes - next - languaegs - zh-Hans.yml 并删除">
@@ -357,7 +357,9 @@
       
         <script src="/assets/js/APlayer.min.js"> </script><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="找到-Themes-next-languaegs-zh-Hans-yml-并删除"><a href="#找到-Themes-next-languaegs-zh-Hans-yml-并删除" class="headerlink" title="找到 Themes - next - languaegs - zh-Hans.yml 并删除"></a>找到 Themes - next - languaegs - zh-Hans.yml 并删除</h3><a id="more"></a>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">page:</div><div class="line">totally: 共有</div><div class="line">tags: 标签</div></pre></td></tr></table></figure>
+<p>和<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">footer:</div><div class="line">  powered: <span class="string">"由 %s 强力驱动"</span></div><div class="line">  theme: 主题</div></pre></td></tr></table></figure></p>
 <h3 id="找到-Themes-next-layout-partials-footer-swig-并删除"><a href="#找到-Themes-next-layout-partials-footer-swig-并删除" class="headerlink" title="找到 Themes - next - layout - _partials - footer.swig 并删除"></a>找到 Themes - next - layout - _partials - footer.swig 并删除</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;div class = <span class="string">"powered-by"</span>&gt; &lt;/div&gt;</div></pre></td></tr></table></figure>
+<p>和<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&lt;div class=<span class="string">"theme-info"</span>&gt;</div><div class="line">  &#123;&#123; __(<span class="string">'footer.theme'</span>) &#125;&#125; -</div><div class="line">  &lt;a class=<span class="string">"theme-link"</span> href=<span class="string">"https://github.com/iissnan/hexo-theme-next"</span>&gt;</div><div class="line">    NexT.&#123;&#123; theme.scheme &#125;&#125;</div><div class="line">  &lt;/a&gt;</div><div class="line">&lt;/div&gt;</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -556,21 +558,6 @@
   </span>
   <span class="author" itemprop="copyrightHolder">LarnyRang</span>
 </div>
-
-
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
-
-
-
 
 
 

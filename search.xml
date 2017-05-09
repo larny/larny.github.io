@@ -18,6 +18,6 @@
   <entry>
     <title><![CDATA[如何去掉Hexo博客底部页脚]]></title>
     <url>%2F2017%2F05%2F06%2Ftitle-%20%E5%A6%82%E4%BD%95%E5%8E%BB%E6%8E%89Hexo%E5%8D%9A%E5%AE%A2%E5%BA%95%E9%83%A8%E9%A1%B5%E8%84%9A%2F</url>
-    <content type="text"><![CDATA[Quick Start找到 Themes - next - languaegs - zh-Hans.yml 并删除 123page:totally: 共有tags: 标签 找到 Themes - next - layout - _partials - footer.swig 并删除1&lt;div class = "powered-by"&gt; &lt;/div&gt;]]></content>
+    <content type="text"><![CDATA[Quick Start找到 Themes - next - languaegs - zh-Hans.yml 并删除 123page:totally: 共有tags: 标签 和123footer: powered: "由 %s 强力驱动" theme: 主题 找到 Themes - next - layout - _partials - footer.swig 并删除1&lt;div class = "powered-by"&gt; &lt;/div&gt; 和123456&lt;div class="theme-info"&gt; &#123;&#123; __('footer.theme') &#125;&#125; - &lt;a class="theme-link" href="https://github.com/iissnan/hexo-theme-next"&gt; NexT.&#123;&#123; theme.scheme &#125;&#125; &lt;/a&gt;&lt;/div&gt;]]></content>
   </entry>
 </search>
