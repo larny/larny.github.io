@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[字符动画]]></title>
     <url>%2F2017%2F05%2F09%2F%E5%AD%97%E7%AC%A6%E5%8A%A8%E7%94%BB%2F</url>
-    <content type="text"><![CDATA[12345678910111213141516171819window.onload = function() &#123;//定义素材总量&lt;!--more --&gt; var num = 441 x = 0 setInterval(function()&#123; if (x &lt; num) &#123; x++; // console.log(x); 测试 //或者这样 url = 1 + "(" + x + ")" + "." + "jpg"; //url = 1 + "(" + x + ")" + "." + "txt/html"; //给frame增加属性 $("#show").attr("src", url); &#125; else &#123; return false; &#125; &#125;,33.33) 在HTML中1&lt;iframe name="myframe" id="show" frameborder="0"&gt;&lt;/iframe&gt;]]></content>
+    <content type="text"><![CDATA[使用iframe来制作字符动画提前使用 potplayer 来截取帧 用ASCII Generator 2 来制作每一帧的字符画 12345678910111213141516171819window.onload = function() &#123;//定义素材总量 var num = 441 x = 0 setInterval(function()&#123; if (x &lt; num) &#123; x++; // console.log(x); 测试 //或者这样 url = 1 + "(" + x + ")" + "." + "jpg"; //url = 1 + "(" + x + ")" + "." + "txt/html"; //给frame增加属性 $("#show").attr("src", url); &#125; else &#123; return false; &#125; &#125;,33.33) 在HTML中1&lt;iframe name="myframe" id="show" frameborder="0"&gt;&lt;/iframe&gt;]]></content>
   </entry>
   <entry>
     <title><![CDATA[Hexo-设置阅读全文]]></title>
