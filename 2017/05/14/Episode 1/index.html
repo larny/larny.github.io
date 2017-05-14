@@ -87,16 +87,16 @@
 
 
 
-<meta name="description" content="使用iframe来制作字符动画提前使用 potplayer 来截取帧 用ASCII Generator 2 来制作每一帧的字符画">
+<meta name="description" content="M.D (Doctors of Medicine) 医学博士 resident 住院医师">
 <meta property="og:type" content="article">
-<meta property="og:title" content="字符动画">
-<meta property="og:url" content="http://larny.cn/2017/05/09/字符动画/index.html">
+<meta property="og:title" content="第一集">
+<meta property="og:url" content="http://larny.cn/2017/05/14/Episode 1/index.html">
 <meta property="og:site_name" content="Larny">
-<meta property="og:description" content="使用iframe来制作字符动画提前使用 potplayer 来截取帧 用ASCII Generator 2 来制作每一帧的字符画">
-<meta property="og:updated_time" content="2017-05-09T14:30:17.809Z">
+<meta property="og:description" content="M.D (Doctors of Medicine) 医学博士 resident 住院医师">
+<meta property="og:updated_time" content="2017-05-14T09:43:46.420Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="字符动画">
-<meta name="twitter:description" content="使用iframe来制作字符动画提前使用 potplayer 来截取帧 用ASCII Generator 2 来制作每一帧的字符画">
+<meta name="twitter:title" content="第一集">
+<meta name="twitter:description" content="M.D (Doctors of Medicine) 医学博士 resident 住院医师">
 
 
 
@@ -124,13 +124,13 @@
 
 
 
-  <link rel="canonical" href="http://larny.cn/2017/05/09/字符动画/"/>
+  <link rel="canonical" href="http://larny.cn/2017/05/14/Episode 1/"/>
 
 
 
 
 
-  <title> 字符动画 | Larny </title>
+  <title> 第一集 | Larny </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -283,7 +283,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://larny.cn/2017/05/09/字符动画/">
+    <link itemprop="mainEntityOfPage" href="http://larny.cn/2017/05/14/Episode 1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="LarnyRang">
@@ -304,7 +304,7 @@
             
             
               
-                字符动画
+                第一集
               
             
           </h1>
@@ -319,8 +319,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-09T22:20:34+08:00">
-                2017-05-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-14T16:38:37+08:00">
+                2017-05-14
               </time>
             
 
@@ -355,11 +355,64 @@
       
 
       
-        <script src="/assets/js/APlayer.min.js"> </script><h3 id="使用iframe来制作字符动画"><a href="#使用iframe来制作字符动画" class="headerlink" title="使用iframe来制作字符动画"></a>使用iframe来制作字符动画</h3><p>提前使用 <strong>potplayer</strong> 来截取帧</p>
-<p>用<strong>ASCII Generator 2</strong> 来制作每一帧的字符画</p>
-<a id="more"></a>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">window.onload = <span class="function"><span class="title">function</span></span>() &#123;</div><div class="line">//定义素材总量</div><div class="line"></div><div class="line">	var num = 441</div><div class="line">		x = 0</div><div class="line">	<span class="built_in">set</span>Interval(<span class="function"><span class="title">function</span></span>()&#123;</div><div class="line">		<span class="keyword">if</span> (x &lt; num) &#123;</div><div class="line">			x++;</div><div class="line">			// console.log(x); 测试</div><div class="line">			//或者这样</div><div class="line">			url = 1 + <span class="string">"("</span> + x + <span class="string">")"</span> + <span class="string">"."</span> + <span class="string">"jpg"</span>;</div><div class="line">			//url = 1 + <span class="string">"("</span> + x + <span class="string">")"</span> + <span class="string">"."</span> + <span class="string">"txt/html"</span>;</div><div class="line">			//给frame增加属性</div><div class="line">	       $(<span class="string">"#show"</span>).attr(<span class="string">"src"</span>, url);</div><div class="line">	     &#125;</div><div class="line">            <span class="keyword">else</span> &#123;</div><div class="line">            	<span class="built_in">return</span> <span class="literal">false</span>;</div><div class="line">            &#125;</div><div class="line">	&#125;,33.33)</div></pre></td></tr></table></figure>
-<h3 id="在HTML中"><a href="#在HTML中" class="headerlink" title="在HTML中"></a>在HTML中</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe  name=<span class="string">"myframe"</span> id=<span class="string">"show"</span> frameborder=<span class="string">"0"</span>&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
+        <script src="/assets/js/APlayer.min.js"> </script><p>M.D (Doctors of Medicine) 医学博士</p>
+<p>resident 住院医师<br><a id="more"></a><br>attending 主治医生</p>
+<p>obliterated 阻塞的</p>
+<p>carotid 颈动脉的</p>
+<p>suction 抽气机</p>
+<p>hypothermia 低温</p>
+<p>artery 动脉</p>
+<p>saline 盐水/生理盐水</p>
+<p>I.R.B. 机构审查委员会</p>
+<p>E.R 急诊室/科</p>
+<p>director 主任</p>
+<p>Xanax 阿普唑仓（治焦虑症）</p>
+<p>residency director 住院主任</p>
+<p>suspended animation 假死状态</p>
+<p>resident 住院医生</p>
+<p>E.S.I.-1 -2 -3 一级/二级/三级(急诊)严重指数</p>
+<p>tPA 纤溶酶原激活剂</p>
+<p>attending 主治医生</p>
+<p>spinal shock 脊髓休克</p>
+<p>blood clot 血栓</p>
+<p>epidural hematoma 硬脑膜外血肿</p>
+<p>Trauma-1 创伤一组</p>
+<p>the Side 次紧急区</p>
+<p>Angels Memorial 天使纪念医院</p>
+<p>homeboy drop-off 帮派伤员自送入院</p>
+<p>suction 吸液/抽吸</p>
+<p>N.V.P=Nevirapine 奈韦拉平（抗艾滋药）</p>
+<p>R.S.I. 快速气管插管</p>
+<p>etomidate 依托咪酯（静脉麻醉剂）</p>
+<p>sux=suxamethonium 琥珀胆碱（局部麻醉剂）</p>
+<p>subclavian 锁骨下的</p>
+<p>vas=vascular 血管的</p>
+<p>cath = catheter 导管</p>
+<p>lac=laceration 撕裂伤；擦伤</p>
+<p>血压表达方法：血压AA/BB</p>
+<p>pressor 增血压素</p>
+<p>norepinephrine 去甲肾上腺素</p>
+<p>G.C.S.=Glasgow Coma Scale 格拉斯哥昏迷评分</p>
+<p>stroke team 中风专科小组</p>
+<p>M.C.A.=middle cerebral artery 大脑中动脉</p>
+<p>cast 打石膏/石膏</p>
+<p>transplant team 器官移植小组</p>
+<p>window 窗口期</p>
+<p>U.R.I.=upper respiratory infection 上呼吸道感染</p>
+<p>withdrawal 戒断</p>
+<p>tox screen 毒理检验</p>
+<p>pneumothorax 气胸</p>
+<p>I.V. 静脉输液器</p>
+<p>vitals 生命体征</p>
+<p>fascia 筋膜</p>
+<p>foley 导尿管</p>
+<p>mid-femur 股骨中段</p>
+<p>over palp 触诊判断</p>
+<p>ortho=orthology 骨科</p>
+<p>glio=glioma 神经胶质瘤</p>
+<p>pubic symphysis 耻骨联合处</p>
+<p>herniate 疝气</p>
+
       
     </div>
 
@@ -395,8 +448,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/05/06/title- Hexo-设置阅读全文/" rel="next" title="Hexo-设置阅读全文">
-                <i class="fa fa-chevron-left"></i> Hexo-设置阅读全文
+              <a href="/2017/05/13/flashFTP获取不到目录/" rel="next" title="FlashFTP获取不到目录">
+                <i class="fa fa-chevron-left"></i> FlashFTP获取不到目录
               </a>
             
           </div>
@@ -405,8 +458,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/05/13/flashFTP获取不到目录/" rel="prev" title="FlashFTP获取不到目录">
-                FlashFTP获取不到目录 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/05/14/美国众神S01E01/" rel="prev" title="American Gods S01E01">
+                American Gods S01E01 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -454,17 +507,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://img.027cgb.cn/20170508/201756430792697141.png"
@@ -522,22 +566,6 @@
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#使用iframe来制作字符动画"><span class="nav-number">1.</span> <span class="nav-text">使用iframe来制作字符动画</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在HTML中"><span class="nav-number">2.</span> <span class="nav-text">在HTML中</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
