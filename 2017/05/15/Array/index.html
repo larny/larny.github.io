@@ -87,17 +87,17 @@
 
 
 
-<meta name="description" content="数组Array对象是一个全局对象，用来构造数组。是一种高阶的列表式对象。 创建一个数组123var fruits = [&amp;apos;Apple&amp;apos;, &amp;apos;Banana&amp;apos;];console.log(fruits.length);// 2">
+<meta name="description" content="数组总概Array对象是一个全局对象，用来构造数组。是一种高阶的列表式对象。 创建一个数组123var fruits = [&amp;apos;Apple&amp;apos;, &amp;apos;Banana&amp;apos;];console.log(fruits.length);// 2">
 <meta name="keywords" content="JS">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数组">
 <meta property="og:url" content="http://larny.cn/2017/05/15/Array/index.html">
 <meta property="og:site_name" content="Larny">
-<meta property="og:description" content="数组Array对象是一个全局对象，用来构造数组。是一种高阶的列表式对象。 创建一个数组123var fruits = [&amp;apos;Apple&amp;apos;, &amp;apos;Banana&amp;apos;];console.log(fruits.length);// 2">
-<meta property="og:updated_time" content="2017-05-15T15:26:38.657Z">
+<meta property="og:description" content="数组总概Array对象是一个全局对象，用来构造数组。是一种高阶的列表式对象。 创建一个数组123var fruits = [&amp;apos;Apple&amp;apos;, &amp;apos;Banana&amp;apos;];console.log(fruits.length);// 2">
+<meta property="og:updated_time" content="2017-05-16T03:17:06.552Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数组">
-<meta name="twitter:description" content="数组Array对象是一个全局对象，用来构造数组。是一种高阶的列表式对象。 创建一个数组123var fruits = [&amp;apos;Apple&amp;apos;, &amp;apos;Banana&amp;apos;];console.log(fruits.length);// 2">
+<meta name="twitter:description" content="数组总概Array对象是一个全局对象，用来构造数组。是一种高阶的列表式对象。 创建一个数组123var fruits = [&amp;apos;Apple&amp;apos;, &amp;apos;Banana&amp;apos;];console.log(fruits.length);// 2">
 
 
 
@@ -356,7 +356,7 @@
       
 
       
-        <script src="/assets/js/APlayer.min.js"> </script><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p><em>Array</em>对象是一个全局对象，用来构造数组。是一种高阶的列表式对象。</p>
+        <script src="/assets/js/APlayer.min.js"> </script><h2 id="数组总概"><a href="#数组总概" class="headerlink" title="数组总概"></a>数组总概</h2><p><em>Array</em>对象是一个全局对象，用来构造数组。是一种高阶的列表式对象。</p>
 <h3 id="创建一个数组"><a href="#创建一个数组" class="headerlink" title="创建一个数组"></a>创建一个数组</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">var fruits = [&apos;Apple&apos;, &apos;Banana&apos;];</div><div class="line">console.log(fruits.length);</div><div class="line">// 2</div></pre></td></tr></table></figure>
 <a id="more"></a>
 <h3 id="访问下标获取一个数组项"><a href="#访问下标获取一个数组项" class="headerlink" title="访问下标获取一个数组项"></a>访问下标获取一个数组项</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">var first = fruits[0];</div><div class="line">// Apple</div><div class="line"></div><div class="line">var last  = fruits[fruits.length - 1];</div><div class="line">// Banana</div></pre></td></tr></table></figure>
@@ -367,6 +367,8 @@
 <h3 id="数组第一项前增加一项"><a href="#数组第一项前增加一项" class="headerlink" title="数组第一项前增加一项"></a>数组第一项前增加一项</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">var newLength = fruits.unshift(&apos;Strawberry&apos;);</div><div class="line">fruits</div><div class="line">// [&quot;Strawberry&quot;, &quot;Banana&quot;]</div><div class="line">newLength</div><div class="line">// 2 返回操作之后的数组项数</div></pre></td></tr></table></figure>
 <h3 id="找到数组中该项的位置"><a href="#找到数组中该项的位置" class="headerlink" title="找到数组中该项的位置"></a>找到数组中该项的位置</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">fruits.push(&apos;Mango&apos;);</div><div class="line">// [&quot;Strawberry&quot;, &quot;Banana&quot;, &quot;Mango&quot;]</div><div class="line"></div><div class="line">var pos = fruits.indexOf(&apos;Banana&apos;);</div><div class="line">// 1</div></pre></td></tr></table></figure>
 <h3 id="通过下标删去该项"><a href="#通过下标删去该项" class="headerlink" title="通过下标删去该项"></a>通过下标删去该项</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">var removeItem = fruits.splice(pos, 1);</div><div class="line">fruits</div><div class="line">// [&quot;Strawberry&quot;, &quot;Mango&quot;]</div><div class="line">removeItem</div><div class="line">// [&quot;Banana&quot;] 返回移去的项组成的数组</div></pre></td></tr></table></figure>
+<h3 id="从索引开始删去数组项"><a href="#从索引开始删去数组项" class="headerlink" title="从索引开始删去数组项"></a>从索引开始删去数组项</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">var vegetables = [&apos;Cabbage&apos;, &apos;Turnip&apos;, &apos;Radish&apos;, &apos;Carrot&apos;];</div><div class="line">console.log(vegetables);</div><div class="line">// [&quot;Cabbage&quot;, &quot;Turnip&quot;, &quot;Radish&quot;, &quot;Carrot&quot;]</div><div class="line"></div><div class="line">var pos = 1, n = 2;</div><div class="line"></div><div class="line">var removedItems = vegetables.splice(pos, n);</div><div class="line">// 删去数组项的方法, n 定义删去的项数,</div><div class="line">// 从 pos 开始算起, 如果n &gt; 数组长度, 则到数组末尾为止, 不报错</div><div class="line"></div><div class="line">console.log(vegetables);</div><div class="line">// [&quot;Cabbage&quot;, &quot;Carrot&quot;] (原始数组改变)</div><div class="line"></div><div class="line">console.log(removedItems);</div><div class="line">// [&quot;Turnip&quot;, &quot;Radish&quot;]</div></pre></td></tr></table></figure>
+<h3 id="获取数组副本"><a href="#获取数组副本" class="headerlink" title="获取数组副本"></a>获取数组副本</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">var shallowCopy = fruits.slice(); // 不带参数则获得数组整个副本, 原始数组不变</div><div class="line">// [&quot;Strawberry&quot;]</div></pre></td></tr></table></figure>
       
     </div>
 
@@ -408,8 +410,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/05/14/美国众神S01E01/" rel="next" title="American Gods S01E01">
-                <i class="fa fa-chevron-left"></i> American Gods S01E01
+              <a href="/2017/05/15/1/" rel="next" title="">
+                <i class="fa fa-chevron-left"></i> 
               </a>
             
           </div>
@@ -417,6 +419,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/05/17/第二章/" rel="prev" title="第一章 地球的性质、结构及物质组成">
+                第一章 地球的性质、结构及物质组成 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -488,7 +494,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -501,7 +507,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -550,7 +556,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#数组"><span class="nav-number">1.</span> <span class="nav-text">数组</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建一个数组"><span class="nav-number">1.1.</span> <span class="nav-text">创建一个数组</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#访问下标获取一个数组项"><span class="nav-number">1.2.</span> <span class="nav-text">访问下标获取一个数组项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组内项循环"><span class="nav-number">1.3.</span> <span class="nav-text">数组内项循环</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组末尾添加一项"><span class="nav-number">1.4.</span> <span class="nav-text">数组末尾添加一项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删去数组最后一项"><span class="nav-number">1.5.</span> <span class="nav-text">删去数组最后一项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删去数组第一项"><span class="nav-number">1.6.</span> <span class="nav-text">删去数组第一项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组第一项前增加一项"><span class="nav-number">1.7.</span> <span class="nav-text">数组第一项前增加一项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#找到数组中该项的位置"><span class="nav-number">1.8.</span> <span class="nav-text">找到数组中该项的位置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#通过下标删去该项"><span class="nav-number">1.9.</span> <span class="nav-text">通过下标删去该项</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#数组总概"><span class="nav-number">1.</span> <span class="nav-text">数组总概</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建一个数组"><span class="nav-number">1.1.</span> <span class="nav-text">创建一个数组</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#访问下标获取一个数组项"><span class="nav-number">1.2.</span> <span class="nav-text">访问下标获取一个数组项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组内项循环"><span class="nav-number">1.3.</span> <span class="nav-text">数组内项循环</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组末尾添加一项"><span class="nav-number">1.4.</span> <span class="nav-text">数组末尾添加一项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删去数组最后一项"><span class="nav-number">1.5.</span> <span class="nav-text">删去数组最后一项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删去数组第一项"><span class="nav-number">1.6.</span> <span class="nav-text">删去数组第一项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组第一项前增加一项"><span class="nav-number">1.7.</span> <span class="nav-text">数组第一项前增加一项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#找到数组中该项的位置"><span class="nav-number">1.8.</span> <span class="nav-text">找到数组中该项的位置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#通过下标删去该项"><span class="nav-number">1.9.</span> <span class="nav-text">通过下标删去该项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#从索引开始删去数组项"><span class="nav-number">1.10.</span> <span class="nav-text">从索引开始删去数组项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#获取数组副本"><span class="nav-number">1.11.</span> <span class="nav-text">获取数组副本</span></a></li></ol></li></ol></div>
             
 
           </div>
